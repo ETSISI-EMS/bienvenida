@@ -16,6 +16,7 @@ Git / GitHub - Flujo con ramas y Pull Request
 ## Sesion de Reingeniería
 
 Ingeniería inversa de datos + cambio + reingeniería
+
 Ingeniería inversa de código + refactorización
 
 ## Trabajo 3
