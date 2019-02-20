@@ -1,5 +1,5 @@
 
-<h1>Service by SIG.eu to evaluate Code Quality</h1>
+<h1>Service by SoftwareImprovementGroup.com to evaluate Code Quality inside your CI/CD</h1>
 
 When: January 2019
 
@@ -15,7 +15,7 @@ It is amazing to see how far our industry has come over the past decades. New te
 Based on 15+ years of research and tens of thousands of measurements on IT systems from numerous industries, SIG presents 'Better Code Hub’ (BCH), an online environment that allows anyone to measure how their code compares to 10 rules for future-proof code. These ten rules code are described in SIG's book 'Building Maintainable Software', which was published with O'Reilly Media.
 
 A clean codebase keeps development velocity high and makes it easy for developers to start contributing. Better Code Hub indicates just the right amount of refactoring needed to keep it compliant.
-Better Code Hub checks your code for compliance against 10 benchmarked software engineering guidelines. It gives immediate feedback on where to focus for quality improvements. 16 modern programming languages are supported.
+Better Code Hub checks your code for compliance against 10 benchmarked software engineering guidelines. It gives immediate feedback on where to focus for quality improvements. 17 modern programming languages are supported.
 
 
 ## Evaluating your code by using Better Code Hub (BCH).
@@ -26,11 +26,13 @@ Better Code Hub checks your code for compliance against 10 benchmarked software 
 
 3. 17 modern programming languages are [supported](https://bettercodehub.com/docs/configuration-manual) with a maximum of 200 KLoc per code base.
 
-4. Your repository gets a score in Better Code Hub. The more guidelines you get right, the higher the score. The maximum is 10 out of 10. All guidelines are equally important so please aim for a 10 for new codebases.
+4. Each repository gets a score in Better Code Hub. The more guidelines you get right, the higher the score. The maximum is 10 out of 10. All guidelines are equally important so please aim for a 10 for new codebases.
 
 5. Find your scores inside the GitHub conversation flow at the commits and pull request per branch.
 
 6. Press play in the BetterCodeHub interface and run your analysis on master.
+
+7. Use the score to discuss refactoring priorities with your team. The scores can be compared over teams to have a common understanding of code quality. When a guideline is compliant ( green ) it is time to move along and shift your attention to other parts of the code base. 'Clean is clean enough'
 
 
 ## How to get started.
@@ -44,6 +46,16 @@ Better Code Hub checks your code for compliance against 10 benchmarked software 
 4. Enable Push & Pull Request support by clicking on the PR icon on the card, this will make BetterCodeHub analyse your commits and pull requests.
 
 5. Send a PR to add your badge code to be added to the scoreboard.md
+
+
+## Some tips on using BCH.
+
+1. **Snoozing** If there is a refactoring candidate in the list that you decide not to solve (for now), can snooze it. This hides it from view but does not affect your score. You can then focus on other refactoring candidates to bring your code base at an acceptable quality level. You can unsnooze a candidate when your insights change.
+
+2. **Component depth** Under the “Keep Architecture Components Balanced” guideline, you can check whether BCH has correctly detected the top-level components of your system. If not, you can interactively try different zoom levels and then configure the correct zoom level in a configuration file (bettercodehub.yml). BCH uses the folders structure in your system to zoom.
+
+3. **Exclusions** If there are files, languages or directories in your code base that are not within your development/maintenance scope, but not automatically excluded from analysis by BCH, you can configure additional exclusions in the configuration file. But first consider to take them out of your repository altogether by using dependency management.
+
 
 
 ## How to get support.
