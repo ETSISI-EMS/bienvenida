@@ -8,6 +8,7 @@ ISO/IEC 14764  IEEE Std 14764-2006 Software Engineering — Software Life Cycle 
 Continuous Everything (Integration, Delivery, Deployment)
 * Lab pipeline con Jenkins
 * Lab pipeline con Azure DevOps
+* Lab pipeline con Clarive
 
 ## Trabajo 2
 
