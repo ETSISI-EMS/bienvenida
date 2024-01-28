@@ -22,5 +22,7 @@ Mantenibilidad y Refactorización
 ## Trabajo 4
 
 Ingeniería inversa de datos + cambio + reingeniería
+
 Ingeniería inversa de código + refactorización
+
 Migración de una aplicación legacy de stack tecnológico (Java --> ASP .NET)
